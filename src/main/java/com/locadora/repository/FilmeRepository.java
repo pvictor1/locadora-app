@@ -1,4 +1,8 @@
 package com.locadora.repository;
 
-public interface FilmeRepository {
+import com.locadora.model.Cliente;
+import com.locadora.model.Filme;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface FilmeRepository extends JpaRepository <Filme, Long> {
 }

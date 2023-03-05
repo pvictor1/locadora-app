@@ -32,6 +32,6 @@ public class Cliente implements Serializable {
     @Column(name = "idade")
     private int idade;
 
-    private String teste;
+
 
 }
